@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0 auto;
+
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  font-family: $fontOpenSans;
+  color: $headingcolor;
+  display: inline-block;
+  font-size: 16px;
+
+  li span {
+    color: #E58A20;
+  }
+}
+ul a {
+  text-decoration: none ;
+  color: white;
+  text-align: center;
+  padding: 28px 15px 22px;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.logo {
+  font-family: $fontCharmonman;
+  color: white;
+  font-size: 42px;
+
+
+}
+.logo > span {
+  color: #E58A20;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+
+nav {
+font-size: 14px;
+  background-color: $navbarcolor;
+  height: 95px;
+  margin-top: 0;
+
+}
