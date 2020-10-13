@@ -15,6 +15,36 @@
     </header>
     <section>
       <!-- carousel -->
+        <div class="carousel__container">
+
+            <button class="carousel__btn carousel__prev">
+                <img src="img/arrow-left.svg" alt="btn-left">
+            </button>
+
+            <div class="carousel__track-container">
+                <ul class="carousel__track">
+                    <li class="carousel__slide">
+                        <img class="carousel__image" src="img/avocado.jpg">
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel__image" src="img/steak.jpg">
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel__image" src="img/eggs.jpg">
+                    </li>
+                </ul>
+            </div>
+
+            <button class="carousel__btn carousel__next">
+                <img src="img/arrow-right.svg" alt="btn-right">
+            </button>
+
+            <div class="carousel__nav">
+                <button class="carousel__nav-btn current-slide"></button>
+                <button class="carousel__nav-btn"></button>
+                <button class="carousel__nav-btn"></button>
+            </div>
+        </div>
     </section>
     <section>
       <!-- CTA + button -->
@@ -36,5 +66,7 @@
     </footer>
 
     <script src="./js/index.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/carousel.js"></script>
   </body>
 </html>
