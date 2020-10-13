@@ -1,0 +1,40 @@
+@import "variables";
+
+
+.CTA_btn {
+  color: white;
+  font-size: 20px;
+  display: inline-block ;
+  background-color: $headingtextcolor;
+  border: 0;
+  width: 250px;
+  height: 50px;
+  margin: 50px;
+}
+
+
+.CTA_header_p{
+  color: white;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 20px;
+  font-family: $fontOpenSans;
+}
+
+.CTA_box {
+  background-color: $headingcolor;
+  color: white;
+  display: flex;
+  align-items: center;
+
+}
+
+.CTA_header {
+  padding: 50px;
+}
+
+.CTA_header_h3 {
+  padding: 0 10px 0 0px;
+  font-family: $fontOpenSans;
+  font-size: 26px;
+}

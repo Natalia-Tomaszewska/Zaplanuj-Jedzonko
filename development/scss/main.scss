@@ -5,8 +5,9 @@
 // https://fontawesome.com/how-to-use/on-the-web/using-with/sass
 @import "reset";
 @import "variables";
+@import "cta";
 
 body {
-  background-color: #BADA55;
+  background-color: $windowcolor;
   font-size: 14px;
 }
