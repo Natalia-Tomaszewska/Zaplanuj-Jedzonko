@@ -1,0 +1,33 @@
+section {
+  margin: auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%; }
+
+img {
+  width: 350px;
+  height: 100%; }
+
+.text-about-author {
+  margin-left: 60px;
+  font-family: "Open Sans", sans-serif;
+  color: #4a4a49; }
+
+.about-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  margin-top: 20px; }
+
+h3 {
+  font-size: 20px;
+  padding: 10px; }
+
+p {
+  padding: 10px;
+  line-height: 200%; }
