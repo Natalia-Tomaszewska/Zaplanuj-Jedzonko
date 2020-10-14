@@ -2,7 +2,7 @@
 
 .carousel__container {
   width: 1000px;
-  height: 600px;
+  height: 500px;
   position: relative;
   margin: 0 auto;
 }
@@ -26,7 +26,8 @@
   top: 0;
   bottom: 0;
   width: 100%;
-  display: none;
+  opacity: 0;
+  transition: opacity 300ms ease;
 }
 .carousel__btn {
   position: absolute;
@@ -48,6 +49,5 @@
 }
 .current-slide {
   background: rgba(0,0,0, 0.7);
-  display: block;
-  transition: transform 250ms ease-in;
+  opacity: 1;
 }
