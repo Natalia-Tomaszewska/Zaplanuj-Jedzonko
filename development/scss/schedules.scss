@@ -1,0 +1,308 @@
+@import "variables";
+
+.schedules {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .schedules-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid $tabtextcolor;
+    border-style: dashed;
+
+    .schedules-container-opener {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid $tabtextcolor;
+
+      .opener-title {
+        font-family: $fontOpenSans;
+        font-size: 24px;
+        color: $headingtextcolor;
+        font-weight: bold;
+        align-self: center;
+        text-align: center;
+
+
+      }
+
+      button {
+        font-family: $fontOpenSans;
+        border: none;
+        background-color: $headingtextcolor;
+        color: $buttonscolor;
+        font-size: 24px;
+        text-align: center;
+      }
+
+
+    }
+
+    .schedules-info {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-right: 100px;
+
+
+      .schedules-name {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+
+        h1 {
+          font-size: 24px;
+          color: $navbarcolor;
+          font-family: $fontOpenSans;
+          margin-right: 100px;
+        }
+
+        input {
+          width: 900px;
+          border: none;
+          border: 1px solid $tabtextcolor;
+
+        }
+      }
+
+      .schedules-description {
+        display: flex;
+        margin-bottom: 10px;
+
+
+        h1 {
+          font-size: 24px;
+          color: $navbarcolor;
+          font-family: $fontOpenSans;
+          margin-right: 124px;
+
+        }
+
+        input {
+          width: 900px;
+          height: 60px;
+          border: none;
+          border: 1px solid $tabtextcolor;
+        }
+
+      }
+
+      .schedules-week {
+        display: flex;
+        margin-bottom: 20px;
+
+
+        h1 {
+          font-size: 24px;
+          color: $navbarcolor;
+          font-family: $fontOpenSans;
+          margin-right: 63px;
+        }
+
+        input {
+          width: 24px;
+          border: none;
+          border: 1px solid $tabtextcolor;
+        }
+      }
+
+    }
+
+    .schedules-table {
+      table {
+        thead {
+
+          th {
+            font-size: 24px;
+            font-weight: bold;
+            font-family: $fontOpenSans;
+            color: $headingcolor;
+            align-self: center;
+            justify-self: center;
+            text-align: center;
+            border-top: 2px solid $tabtextcolor;
+            border-bottom: 2px solid $tabtextcolor;
+            padding-top: 10px;
+
+          }
+
+          .th-none {
+            border-top: none;
+          }
+        }
+
+        tbody {
+
+
+          .schedules-tr1 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid $tabtextcolor;
+            height: 30px;
+
+            th {
+              font-size: 24px;
+              font-weight: bold;
+              font-family: $fontOpenSans;
+              color: $headingcolor;
+
+
+            }
+
+            td {
+              select {
+                border-color: $tabtextcolor;
+                color: $headingcolor;
+              }
+            }
+          }
+
+          .schedules-tr2 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid $tabtextcolor;
+            height: 30px;
+
+
+            th {
+              font-size: 24px;
+              font-weight: bold;
+              font-family: $fontOpenSans;
+              color: $headingcolor;
+            }
+
+            td {
+              select {
+                border-color: $tabtextcolor;
+                color: $headingcolor;
+              }
+            }
+          }
+
+          .schedules-tr3 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid $tabtextcolor;
+            height: 30px;
+
+
+            th {
+              font-size: 24px;
+              font-weight: bold;
+              font-family: $fontOpenSans;
+              color: $headingcolor;
+            }
+
+            td {
+              select {
+                border-color: $tabtextcolor;
+                color: $headingcolor;
+              }
+            }
+          }
+
+          .schedules-tr4 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid $tabtextcolor;
+            height: 30px;
+
+
+            th {
+              font-size: 24px;
+              font-weight: bold;
+              font-family: $fontOpenSans;
+              color: $headingcolor;
+            }
+
+            td {
+              select {
+                border-color: $tabtextcolor;
+                color: $headingcolor;
+              }
+            }
+          }
+
+          .schedules-tr5 {
+
+            align-self: center;
+            justify-self: center;
+            text-align: center;
+            margin-right: 20px;
+            height: 30px;
+            border-bottom: 2px solid $tabtextcolor;
+
+            th {
+              font-size: 24px;
+              font-weight: bold;
+              font-family: $fontOpenSans;
+              color: $headingcolor;
+              margin-bottom: 20px;
+
+            }
+
+            td {
+              select {
+                border-color: $tabtextcolor;
+                color: $headingcolor;
+              }
+            }
+
+          }
+
+          .schedules-tr6 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid $tabtextcolor;
+            height: 30px;
+
+
+            th {
+              font-size: 24px;
+              font-weight: bold;
+              font-family: $fontOpenSans;
+              color: $headingcolor;
+            }
+
+            td {
+              select {
+                border-color: $tabtextcolor;
+                color: $headingcolor;
+              }
+            }
+          }
+
+          .schedules-tr7 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid $tabtextcolor;
+            height: 30px;
+
+
+            th {
+              font-size: 24px;
+              font-weight: bold;
+              font-family: $fontOpenSans;
+              color: $headingcolor;
+            }
+
+            td {
+              select {
+                border-color: $tabtextcolor;
+                color: $headingcolor;
+              }
+            }
+          }
+        }
+      }
+
+
+    }
+  }
+}
