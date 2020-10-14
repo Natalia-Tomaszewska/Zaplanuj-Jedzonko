@@ -1,0 +1,11 @@
+@import "variables";
+
+.firstVisit__container {
+  max-width: 1000px;
+  background: $windowcolor;
+  height: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
