@@ -1,0 +1,132 @@
+@import "reset";
+@import "variables";
+
+.aboutapp {
+  height: 100%;
+  background-color: $windowcolor;
+
+  .aboutapp-container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+
+    .aboutapp-container-col1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .aboutapp-icon {
+
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        margin-bottom: 20px;
+
+        .fa-check {
+          color: $tabtextcolor;
+
+
+        }
+      }
+
+      .aboutapp-heading {
+        font-size: 28px;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        color: $headingcolor;
+        font-family: $fontOpenSans;
+        margin-bottom: 10px;
+      }
+
+      .aboutapp-paragraph {
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        line-height: 18px;
+        color: $headingcolor;
+        font-family: $fontOpenSans;
+      }
+    }
+
+    .aboutapp-container-col2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .aboutapp-icon {
+
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        margin-bottom: 20px;
+
+        .fa-clock {
+          color: $tabtextcolor;
+
+
+        }
+      }
+
+      .aboutapp-heading {
+        font-size: 28px;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        color: $headingcolor;
+        font-family: $fontOpenSans;
+        margin-bottom: 10px;
+      }
+
+      .aboutapp-paragraph {
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        line-height: 18px;
+        color: $headingcolor;
+        font-family: $fontOpenSans;
+      }
+    }
+
+    .aboutapp-container-col3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .aboutapp-icon {
+
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        margin-bottom: 20px;
+
+        .fa-list {
+          color: $tabtextcolor;
+
+
+        }
+      }
+
+      .aboutapp-heading {
+        font-size: 28px;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        color: $headingcolor;
+        font-family: $fontOpenSans;
+        margin-bottom: 10px;
+      }
+
+      .aboutapp-paragraph {
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        line-height: 18px;
+        color: $headingcolor;
+        font-family: $fontOpenSans;
+      }
+    }
+  }
+}
