@@ -1,0 +1,57 @@
+@import "variables";
+
+
+table {
+  justify-content: center;
+  display: flex;
+
+
+}
+
+.weekdays {
+  font-family: $fontOpenSans;
+  color: $headingcolor;
+  font-size: 1.3em;
+  border-bottom: 1px solid lightgray;
+  font-weight: bold;
+}
+
+td {
+  color: $navbarcolor;
+  font-family: $tabtextcolor;
+  line-height: 2.1em;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  font-size: 1.2em;
+}
+
+.table-title {
+  display: flex;
+  justify-content: center;
+
+  td {
+    color: $headingtextcolor;
+    font-weight: bold;
+    font-family: $fontOpenSans;
+  }
+}
+
+.previous-next {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+
+
+  a {
+    text-decoration: none;
+    color: $headingtextcolor;
+    font-size: 1.3em;
+
+  }
+}
+
+.week-plan {
+  border: 1.5px dotted $tabtextcolor;
+  margin-left: 14em;
+  margin-right: 14em;
+}

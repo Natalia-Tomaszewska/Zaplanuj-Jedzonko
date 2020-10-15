@@ -14,7 +14,7 @@ gulp.task("serve", function(cb) {
     server: "./development"
   });
   gulp.watch("development/scss/**/*.scss", gulp.series("sass"));
-  gulp.watch("development/*.html").on("change", browserSync.reload);
+  gulp.watch("development/app.html").on("change", browserSync.reload);
   gulp.watch("development/js/*.js").on("change", browserSync.reload);
   cb();
 });
