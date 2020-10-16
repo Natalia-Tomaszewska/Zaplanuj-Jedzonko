@@ -1,0 +1,33 @@
+@import "variables";
+
+.buttons-add {
+  display: flex;
+
+}
+
+.add {
+  border: 2px dotted $successmessagecolor;
+  width: 190px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $buttonscolor;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.far {
+  font-size: 4.5em;
+  color: $successmessagecolor;
+  margin-bottom: 15px;
+
+}
+
+.btn-add{
+  border: none;
+  background-color: $buttonscolor;
+  color: $successmessagecolor;
+  font-size: 1.3em;
+  font-family: $fontOpenSans;
+}
