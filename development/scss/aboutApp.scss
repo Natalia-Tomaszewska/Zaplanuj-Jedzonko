@@ -8,9 +8,9 @@
   .aboutapp-container {
     display: flex;
     flex-direction: row;
-
-    justify-content: space-around;
-
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 30px auto;
 
     .aboutapp-container-col1 {
       display: flex;
