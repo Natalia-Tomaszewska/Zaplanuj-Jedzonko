@@ -1,0 +1,42 @@
+@import "variables";
+
+.newsletter_box {
+  margin: 0 auto;
+  background-color: $navbarcolor;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+
+.newsletter_header_h3 {
+  padding: 0 10px 0 0px;
+  font-family: $fontOpenSans;
+  font-size: 26px;
+}
+
+.newsletter_submit {
+  color: white;
+  font-size: 20px;
+  display: inline-block ;
+  background-color: #FF6600;
+  border: 0;
+  margin: 0;
+  width: 150px;
+  height: 40px;
+}
+
+.newsletter_form {
+   height: 40px;
+  width: 250px;
+   border-radius: 0;
+   border: 0;
+   margin: 0;
+  padding: 0;
+ }
+
+.newsletter_header_h3 {
+  margin: 0 25px 0 0;
+}
