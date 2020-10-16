@@ -8,10 +8,10 @@
 @import "message-firstVisit";
 @import "appMainView";
 @import "newsletter";
-
+@import "cta";
 
 body {
-  background-color: #FFFFFA;
+  background-color: $windowcolor;
   font-size: 14px;
 }
 
